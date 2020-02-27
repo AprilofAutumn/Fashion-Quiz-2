@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-radius: 1%;
+}
+
+body >i > {
+
+  flex-grow:0;
+}
+
+.banner{
+padding: 30px;
+background:black;
+}
+
+li{
+ font-family: GillSans,Gill Sans MT,sans-serif;
+ position: absolute;
+}
+
+.listSizeQuestion{
+position:absolute;
+margin-top: 8px;
+list-style: none;
+margin-left:40px;
+}
+
+.listSizeScore{
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 295px;
+  list-style: none;
+}
+
+#container{
+display: flex;
+flex-direction: row;
+padding: 60px;
+}
+
+.image{
+border: 1px solid gray;
+padding: 48px;
+height:200px;
+background:lightgray;
+margin-top:-30px;
+width: 100%;
+margin-left:-11px;
+}
+
+.image-1{
+  background: url(images/Pyer-Moss.jpg)scroll;
+  background-size: cover;
+  
+}
+.image-2{
+ background:url(images/AnnDemeulemeester.jpg);
+ background-position: center;
+ background-size: cover;
+}
+
+.image-3{
+ background: url(images/MachxMach.jpg);
+ background-position:center;
+ background-size: cover;
+}
+
+p{
+position: relative;
+top: -40px;
+margin-left: 15px;
+font-family: GillSans,Gill Sans MT,sans-serif;
+}
+
+#startQuiz{
+padding:115px;
+display: flex;
+margin-top:-60px;
+}
+
+.picture-box{
+padding: 110px;
+border: 1px solid gray;
+background: url(/images/LV-Speedy.jpg);
+background-position:center;
+opacity:0.5;
+margin-top: -90px;
+width: 50px;
+margin-left: -30px;
+}
+.picture-box:hover{
+opacity: 1;
+}
+.button {
+position: absolute;
+bottom: -30px;
+margin-left:28px;
+width:120px;
+height: 30px;
+background-color:green;
+font: white;
+font-family:GillSans,Gill Sans MT,sans-serif;
+font-size: 20px;
+}
+
+
+@media screen and (min-width: 700px){
+
+#container{
+  margin-top:-45px;
+}
+
+.image{
+margin-left: 15px;
+height:500px;
+margin-top: 50px;
+}
+.picture-box{
+display:none;
+margin-left:165px;
+}
+
+.button{
+  position: absolute;
+  margin-left: 275px;
+  margin-bottom: -60px;
+  
+}
+
+p{
+position: absolute;
+top: 90px;
+font-size: 20px;
+margin-left: 150px;
+}
+
+}
+
+@media screen and (min-width:950px){
+
+#container {
+margin-top:-38px;
+}
+.text-box{
+margin-left: 380px;
+width: 40%;
+margin-top: -10px;
+}
+
+.button{
+  position: absolute;
+  bottom: 90px;
+  margin-left: 590px;
+}
+
+.listSizeQuestion{
+position:absolute;
+margin-top: 8px;
+list-style: none;
+margin-left:1000px;
+}
+
+.listSizeScore{
+  position: absolute;
+  margin-top: 8px;
+  margin-left: 205px;
+  list-style: none;
+}
+p{
+margin-top: 5px;
+margin-left: 380px;
+}
+
+
+}
